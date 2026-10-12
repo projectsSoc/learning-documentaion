@@ -1,0 +1,11 @@
+# Arduino learning
+
+sources: playlist: https://youtu.be/JnJIKX5J0Cc
+         chatgpt covo: https://chatgpt.com/share/6acd4929-6948-83e8-81b0-5d5276fbeb93
+
+
+oct 13th- tuesday:
+    1. arduino board pins 0 and 13 are digital input output pins
+    2. 11,10,9,6 and 5 are pwm pins
+    3. A0 A5 A4 are analog i/o pins
+    4. pwm- pulse with modulation
