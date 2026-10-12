@@ -9,3 +9,14 @@ oct 13th- tuesday:
     2. 11,10,9,6 and 5 are pwm pins
     3. A0 A5 A4 are analog i/o pins
     4. pwm- pulse with modulation
+
+    Breadboard:
+    1. 3 sizes: full size, half size and mini
+    2. - : blue line + : red line these two lines are called bus strips used to prove power to the circuit
+    3. apart from bus strips the other holes are terminal strips
+    4. letter and numbers help to locate a hole on the terminal strip
+    5. a line with same nummber are electrically conected upto the half point
+    6. make connections using male to male jumpers
+    7. led longer leg(anode): connnect to positve terminal
+    8. led shorter leg(cathode): connnect to negetive terminal
+    9. batter positive terminnal is cathhode and negetive terminal is anode.
