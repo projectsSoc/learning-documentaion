@@ -1,0 +1,28 @@
+# Arduino-learn
+Add whatever you are learning in arduino to this
+
+
+soumik - https://www.youtube.com/watch?v=BLrHTHUjPuw&t=1392s
+
+components of an arduino board-
+1) microcontroller - it is basically a mini computer. This is what we program using arduino ide. Infact an arduino board is called a microcontroller development board.
+2) general purpose input/output pins (GPIO) - there are 20 of these pins. These are for reading inputs and controlling outputs. Output pins adjust the voltage at the pins and input pins read the voltage at the pins.
+    digital pins- there are 14 of them. These are used for reading binary inputs i.e on/off inputs. They can also act as outputs i.e they can source voltages.
+            pins 0 and 1 are used for communication with usb port. 1 (TX) and 2 (RX) are transmitter and reciever pins. The TX and RX leds will flash when signals are being transmitted.
+            some pins have squigly lines beside them, which means they are capable of pulse width modulation (PWM). PWM turns the voltage high and low at different frerquencies. This is useful for driving inertial loads like motors and for fading leds on anf off as well and controlling servo motors.
+    analogue pins- there are 6 of them. These are used when you have a continuous signals. This is possible as microcontroller has ADC(analogue to digital converter)
+    power pins- 
+            GND is ground pins with the lowest voltage in the board. 
+            The 3.3v and 5v pins can be used for components that doesn't draw too much current.
+            Vin is for inputting external voltage as energy source.
+            reset pin- if a low voltage is supplied to reset pin then it resets the arduino board. Same thing happens with the reset button.
+3) headers - These are connected to the gpio pins and are located on the sides. These are designed such that no soldering is needed.
+
+
+ways to power the circuit board:
+1) Connect with your laptop through the USB.
+2) Use the DC jack. voltage limit is 7 to 20 V. Recommended - limit your voltage to 12V
+3) Use the Vin pin. Get an external power source connected with Vin pin. The voltage limit is 7 to 20V. Recommended - limit your voltage to 12V.
+
+arduino program is called sketch.
+The whole thing together is called a circuit board.
