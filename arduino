@@ -2,3 +2,14 @@
 Add whatever you are learning in arduino to this
 
 
+soumik - https://www.youtube.com/watch?v=BLrHTHUjPuw&t=1392s
+
+components of an arduino board-
+1) microcontroller - it is basically a mini computer. This is what we program using arduino ide. Infact an arduino board is called a microcontroller development board.
+2) general purpose input/output pins (GPIO) - there are 20 of these pins. These are for reading inputs and controlling outputs. Output pins adjust the voltage at the pins and input pins read the voltage at the pins.
+    digital pins- there are 13 
+3) headers - These are connected to the gpio pins and are located on the sides. These are designed such that no soldering is needed.
+
+
+arduino program is called sketch.
+The whole thing together is called a circuit board.
