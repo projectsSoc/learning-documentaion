@@ -10,7 +10,7 @@ components of an arduino board-
     digital pins- there are 14 of them. These are used for reading binary inputs i.e on/off inputs. They can also act as outputs i.e they can source voltages.
             pins 0 and 1 are used for communication with usb port. 1 (TX) and 2 (RX) are transmitter and reciever pins. The TX and RX leds will flash when signals are being transmitted.
             some pins have squigly lines beside them, which means they are capable of pulse width modulation (PWM). PWM turns the voltage high and low at different frerquencies. This is useful for driving inertial loads like motors and for fading leds on anf off as well and controlling servo motors.
-    analogue pins- there are 6 of them. These are used when you have a continuous signals. This is possible as microcontroller has ADC(analogue to digital converter)
+    analogue pins- there are 6 of them. These are used when you have a continuous signals. This is possible as microcontroller has ADC(analogue to digital converter). So basically to take signals from sensor we can use analog pins.
     power pins- 
             GND is ground pins with the lowest voltage in the board. 
             The 3.3v and 5v pins can be used for components that doesn't draw too much current.
@@ -26,3 +26,8 @@ ways to power the circuit board:
 
 arduino program is called sketch.
 The whole thing together is called a circuit board.
+
+
+pinMode(pin number, INPUT/OUTPUT) - recall that each pin can be used as input or output. Through this function we define a pin as input or output.
+analogWrite(pin nuber of pin capable of pwm, voltage) - basically the pin will have an average voltage as it will be switching between on and off very rapidly. The average voltage will be between 0 and 5v set by the second paramter. The value of the second parameter can be set between 0 to 255. 0 being 0v and 255 being 5v.
+delay(time in milliseconds) - asks the arduino board to stop and don't do anything for the specified time.
